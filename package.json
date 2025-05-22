@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@maptiler/sdk": "3.2.3"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html --out-dir dist --public-url ./",
+    "start": "parcel src/index.html --open",
+    "test": "tsc --noEmit"
+  }
+}
+
