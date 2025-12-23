@@ -2,7 +2,7 @@ import * as maptilersdk from "@maptiler/sdk";
 
 import "@maptiler/sdk/dist/maptiler-sdk.css";
 
-maptilersdk.config.apiKey = "GgFArE0mvUkiC9zL7Gj5";
+maptilersdk.config.apiKey = import.meta.env.VITE_MAPTLER_API_KEY || "";
 
 const urlParams = new URLSearchParams(window.location.search);
 
